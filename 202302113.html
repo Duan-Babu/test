@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Document Title -->
-    <title>803班运动会开幕式VLOG丨潘火实验中学21级3班</title>
+    <title>运动会开幕式视频丨潘火实验中学21级3班</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
@@ -161,11 +161,11 @@
     <!-- Page title -->
     <div class="page-title">
         <div class="container">
-            <h2>803班运动会开幕式VLOG</h2>
+            <h2>运动会开幕式视频</h2>
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Videos</a></li>
-                <li>803班运动会开幕式VLOG</li>
+                <li>运动会开幕式视频</li>
             </ul>
         </div>
     </div>
@@ -188,7 +188,7 @@
 
                             <!-- Title -->
                             <div class="title">
-                                <h2>803班运动会开幕式VLOG</h2>
+                                <h2>运动会开幕式视频</h2>
                             </div>
 
                             <!-- Meta -->
@@ -197,7 +197,7 @@
                                     <img src="http://q1.qlogo.cn/g?b=qq&nk=3552876629&s=640" alt="" class="img-fluid">
                                     <a href="#">Babu</a>
                                 </li>
-                                <li class="meta-date"><a href="#">October 29th,2022</a></li>
+                                <li class="meta-date"><a href="#">October 27th,2022</a></li>
                                 <li class="meta-comments"><a href="#"><i class="fa fa-comment"></i> 0</a></li>
                             </ul>
                         </div>
@@ -207,8 +207,8 @@
 
                     <!-- Post Content -->
                     <div class="videoContent">
-                        <video class="videoElement" src="https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fg10000cdefugbc77u6opijq0d0&ratio=1080p&line=0" controls
-                            preload="auto"  controlslist="nodownload" autoplay="autoplay"   width="100%" height="100%"></video>
+                        <video class="videoElement" src="assets/videos/202210271.mp4" controls
+                            preload="auto" width="100%" height="100%"></video>
                     </div>
                             <!-- End of Post Content -->
 
@@ -418,26 +418,6 @@
 
     <!-- ==== Custom js file ==== -->
     <script src="assets/js/custom.js"></script>
-    <script>
-        // 计算页面的实际高度，iframe自适应会用到
-        function calcPageHeight(doc) {
-            var cHeight = Math.max(doc.body.clientHeight, doc.documentElement.clientHeight)
-            var sHeight = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight)
-            var height  = Math.max(cHeight, sHeight)
-            return height
-        }
-        //根据ID获取iframe对象
-        var ifr = document.getElementById('main')
-        ifr.onload = function() {
-              //解决打开高度太高的页面后再打开高度较小页面滚动条不收缩
-              ifr.style.height='0px';
-            var iDoc = ifr.contentDocument || ifr.document
-            var height = calcPageHeight(iDoc)
-            if(height < 850){
-                height = 850;
-            }
-            ifr.style.height = height + 'px'
-        }
-      </script>
+
 </body>
 </html>
